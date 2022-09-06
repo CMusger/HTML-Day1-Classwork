@@ -1,19 +1,61 @@
 o)What is HTML?
-
+    HTML is a "HyperText Markup Language" used to describe web pages.
+    HTML is NOT a programming language, but rather a a markup language.
+    Markup is used to tell the browser how to structure the web page.
 o)How many versions of HTML do you know?
-
+    There are six versions of HTML:
+        - HTML: 1991
+        - HTML 2.0: 1995
+        - HTML 3.2: 1997
+        - HTML 4.01: 1999
+        - XHTML: 2000
+        - HTML5: 2014
 o)How does the basic anatomy of a web page look like?
-
+    See Examples in the Basic Exercises or in the Browser via
+    "View Source"
 o)Could you describe the constituting parts of the Web page? Open your favorite website in your browser and try to find these parts in it.
 
 o)What are HTML elements? What is the difference between opening and closing tags?
+    Elements are part of the web page, used to structure its content.
+    The basic syntax for an HTML-Element would be:
+        <elementname> CONTENT </elementname>
 
+    Tags (<elementname>) are used to define where an HTML-element
+    starts 
 o)Could you describe the Page Structure of an HTML document explaining each element?
+    Yes - see examples in Basic.
+
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <title>
+        </head>
+        <body>
+            <header>
+                <nav></nav>
+            </header>
+            <main>
+                ---
+                    CONTENT
+                ---
+            </main>
+            <footer></footer>
+        </body>
+    </html>
 
 o)What is an HTML block element?
+    A HTML-block-element will always start a new line on the page.
+    (Consuming the entire width of the page rendered in the browser).
+    It could be compared to a "box" which stores other items.
+    (Basically creates some form of barrier)
 
 o)What is an HTML inline element?
+    An HTML-inline-element - for example an <img> element -
+    can be used inside other elements, without consuming the entire width + does not create a new line.
 
 o)What is the div tag and why is it important? What is the difference between div and span elements?
+    The HTML-<div>-element allows us to "contain" certain parts of our code and store them inside it - it becomes especially usefull when combined with CSS.
+    (<div> is a block element - <span> is an inline element)
 
 o)What is the purpose of semantic elements in HTML5?
+They are more descriptive compared to non-semantic elements and are handled better by search-engines.
