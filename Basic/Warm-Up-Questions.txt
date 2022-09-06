@@ -1,0 +1,19 @@
+o)What is HTML?
+
+o)How many versions of HTML do you know?
+
+o)How does the basic anatomy of a web page look like?
+
+o)Could you describe the constituting parts of the Web page? Open your favorite website in your browser and try to find these parts in it.
+
+o)What are HTML elements? What is the difference between opening and closing tags?
+
+o)Could you describe the Page Structure of an HTML document explaining each element?
+
+o)What is an HTML block element?
+
+o)What is an HTML inline element?
+
+o)What is the div tag and why is it important? What is the difference between div and span elements?
+
+o)What is the purpose of semantic elements in HTML5?
